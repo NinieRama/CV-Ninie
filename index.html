@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CV Vonintsoa</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="cvVonintsoa.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://fonts.google.com/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script>
+
+        function verification() {
+
+            var contact = document.getElementById("tel").value;
+
+            if (contact.length == 10 &&
+                (contact.startsWith("032") ||
+                    contact.startsWith("034") ||
+                    contact.startsWith("033") ||
+                    contact.startsWith("038") ||
+                    contact.startsWith("039"))) {
+                document.getElementById('labtel').classList.remove('hide1');
+                var label = document.getElementById("labtel");
+                label.textContent = "*** Le numéro de telephone est valide! ***";
+
+            } else {
+                document.getElementById('labtel').classList.remove('hide1');
+                var label = document.getElementById("labtel");
+                label.textContent = "*** Le numéro de telephone n'est pas valide! ***";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav id="head" class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="pf.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                            <b>Mon portfolio</b>
+                        </a>
+                    </div>
+                </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#ancre1">Mes experiences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ancre2">Mes formations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ancre3">Mes compétences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ancre4">Me contacter</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+    </header><br><br><br><br>
+
+    <div id="b" class="card">
+        <div class="card-body" id="nix">
+            Coucou, je suis Vonintsoa RAMAMONJISON
+        </div>
+    </div>
+
+    <div class="card mb-3"
+        style="max-width: 1200px; height:350px; margin-top:0px; margin-left: auto; margin-right: auto; background-color: rgb(73, 73, 106);color: rgb(221, 187, 187); font-size: 25px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="photoNinie.JPG" width="300px" ; height="400px" class="img-fluid rounded-start"
+                    alt="Photo d'identité Vonintsoa">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h2 class="card-title"><b>Concepteur et Developpeur d'Applications Numériques</b></h2>
+                    <p class="card-text">
+                        Partant d'un monde qui n'avait rien avoir avec le domaine du numérique, je suis actuellement en
+                        pleine reconversion professionnelle chez Inclusiv Academy. Riche de ma formation académique et
+                        de mes expériences entrepreneuriales, je vais les utiliser dans le monde du développement
+                        informatique.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="card" id="expe" style="width: 75rem; height:40rem">
+        <h1 id="ancre1"></h1>
+        <div class="card-body">
+            <h1 class="card-title"><b>MES EXPERIENCES PROFESSIONNELLES</b></h1>
+            <p class="card-text">
+            <pre id="exp">
+                                <b>2023:</b>        MIHARY - Application Desktop de mise en relation des coopératives agricoles avec les entreprises : 
+                                Vente des produits agricoles, gestion des agriculteurs et gestion de stock 
+                                Conception et Développement <br>
+                                <b>2019 - 2022:</b> Traductrice consultante (Anglais – Français -Malagasy) : 
+                                Articles, documents officiels, documents d’informations, notices d’utilisation … <br>
+                                <b>2018 - 2021:</b> Community Manager Freelance de la page Facebook SM.Agency – prestataire de publicités sur Facebook : 
+                                Editeur de la page, création des publicités des pages clientes (publications boostées et pages sponsorisées)<br>
+                                <b>2017 - 2018:</b> Assistante Administrative – Cabinet Sahaza Marline et rédactrice du 
+                                blog.sahazamarline.com<br>
+                                <b>2014 - 2016:</b> BackOffice et Assistante du Sales Area Manager, Telma – Direction Commerciale Groupe 
+                                Data Center Fianarantsoa : reporting, planning des activités et supervision des animateurs.<br>
+                                <b>2014:</b>        Stage de fin d’études sur la prospection d’eau souterraine dans la région Androy (Beloha, Tsihombe, Ambovombe) <br>
+                        </pre>
+            </p>
+        </div>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <p></p>
+    <p></p>
+    <div class="card" id="form" style="width: 50rem;">
+        <h1 id="ancre2"></h1>
+        <div class="card-body">
+            <h1 class="card-title"><b>MES FORMATIONS ACADEMIQUES ET PROFESSIONNELLES</b></h1><br><br>
+            <p class="card-text">
+            <pre id="exp">
+                <b>2022:</b> Concepteur Développeur d’Applications Numériques
+                             Inclusiv Academy <br>
+                <b>2014:</b> Diplôme d’Etudes Approfondies en Géophysique Appliquée 
+                             Université d’Antananarivo  <br>
+                <b>2008:</b> Baccalauréat série C<br>
+                </pre>
+            </p>
+        </div>
+    </div><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="card" id="form" style="width: 50rem;">
+        <h1 id="ancre3"></h1>
+        <div class="card-body">
+            <h1 class="card-title"><b>MES COMPETENCES</b></h1><br><br>
+            <p class="card-text">
+            <pre id="exp">
+                    LANGUES
+                    - Malagasy: Excellent
+                    - Français: Bon
+                    - Anglais: Moyen
+
+                    INFORMATIQUE
+                        Ms OFFice
+
+                    MES CENTRES D'INTERET    
+                    -	Chant
+                    -	Cuisine
+                    -	Camping
+                    -	Natation
+                </pre>
+            </p>
+        </div>
+    </div><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    <div>
+        <div>
+            <div class="card" id="form1" style="width: 40rem; height: 430px">
+                <br><br><br>
+                <h1 id="ancre4"></h1>
+                <div class="card-body">
+                    <h1 class="card-title"><b>ME CONTACTER</b></h1><br><br>
+                    <p class="card-text">
+                    <pre id="exp">
+                    <b>Adresse:</b> IPN 53 ter Amboatavo Alasora<br>
+                    <b>Télephone:</b> 034 65 432 10  <br>
+                    <b>Email:</b> vonintsoa.ramamonjison@gmail.com<br>
+                    <b>Linkedin:</b> <a href="https://www.linkedin.com/in/vonintsoa-ramamonjison-baba82147/" target="_blank">Vonintsoa RAMAMONJISON</a><br>
+                    </pre>
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <fieldset id="div1" style="margin-right:100px">
+                    <legend>Votre message</legend>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Vonintsoa">
+                        <label for="floatingInput">Votre nom</label>
+                    </div>
+                    
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="tel" placeholder="03XXXXXXXX">
+                        <br>
+                        <label for="floatingInput">Contact</label>
+                    </div>
+                    <label id="labtel" class="hide1"></label>
+
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Votre message" id="floatingTextarea2"
+                            style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Comments</label>
+                    </div>
+                    <p></p>
+                    <button type="text" class="btn btn-outline-primary" onclick="verification()"
+                        class="submit">Envoyer</button>
+                </fieldset>
+            </div><br><br><br><br><br>
+        </div>
+
+        <footer class="text-center text-white fixed-bottom" style="background-color: #5c5a5b;">
+            <!-- Grid container -->
+            <div class="container p-4"> © 2023 Copyright: Vonintsoa RAMAMONJISON</div>
+            <!-- Grid container -->
+        </footer>
+</body>
+
+</html>

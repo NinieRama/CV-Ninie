@@ -1,0 +1,112 @@
+#sary
+{
+    width: 2px;
+    height: 2px;
+    float: right;
+   
+}
+html
+{
+    scroll-padding-top: 8rem;
+}
+#exp1
+{
+color:rgb(20, 20, 75);
+font-family: Calibri;
+font-size: 20px;
+margin-left: 50px;
+clear:both;
+}
+#b
+{
+    border-color: transparent;
+}
+.hide1 
+{
+    display: none;
+}
+
+#nix
+{
+    border: 2px solid;
+    border-color: transparent;
+    margin-left: 200px;
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium';
+    background-color: white;
+    color: rgb(31, 66, 54);
+    animation-name: changement-couleur;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+    animation-fill-mode: none;
+    
+}
+@keyframes changement-couleur{
+    0%{color: rgb(18, 18, 75); top:0px;left:0px}
+    25%{color: rgb(217, 8, 113);top:0px;left:400px}
+    50%{color: rgb(9, 133, 54);top:400px;left:400px}
+    75%{color: blueviolet;top:400px;left:0px}
+    100%{color: rgb(78, 52, 7);top:0px;left:0px}
+    }
+#expe
+{
+    border: 2px solid;
+    border-radius: 5%;
+    border-color: transparent;
+    background-color: rgb(186, 224, 186);
+    margin-left: 130px;
+    height: auto;
+    clear:both;
+}
+#exp
+{
+    font-size: 18px;
+    font-family: Calibri;
+    font-style: italic;
+    color: rgb(57, 57, 107);
+    clear:both;
+}
+#form
+{
+    border: 2px solid;
+    border-radius: 5%;
+    border-color: transparent;
+    background-color: rgb(186, 224, 186);
+    margin-left: 200px;
+    height: auto;
+    clear:both;
+}
+#form1
+{
+    border: 2px solid;
+    border-radius: 5%;
+    border-color: transparent;
+    background-color: rgb(186, 224, 186);
+    margin-left: 200px;
+    margin-top:-80px;
+    height: auto;
+    float: left;
+    margin-bottom: 150px;
+}
+#a
+{
+    font-weight: bold;
+    display:block;
+    float: left;
+}
+
+#div1
+{
+    padding: 50px;
+    background-color: rgb(186, 224, 186); 
+    width: 500px;
+    height: 440px;
+    float:right;
+    border-radius: 5%;
+    margin-top: -80px;
+    margin-bottom: 150px;
+}
+
+}

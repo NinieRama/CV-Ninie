@@ -13,7 +13,7 @@ html
 {
 color:rgb(20, 20, 75);
 font-family: Calibri;
-font-size: 20px;
+font-size: 16px;
 margin-left: 50px;
 clear:both;
 }
@@ -55,14 +55,15 @@ clear:both;
     border: 2px solid;
     border-radius: 5%;
     border-color: transparent;
-    background-color: rgb(186, 224, 186);
+    background-color: rgb(224, 236, 245);
     margin-left: 130px;
     height: auto;
     clear:both;
+    font-size: 18px;
 }
 #exp
 {
-    font-size: 18px;
+    font-size: 16px;
     font-family: Calibri;
     font-style: italic;
     color: rgb(57, 57, 107);
@@ -73,17 +74,18 @@ clear:both;
     border: 2px solid;
     border-radius: 5%;
     border-color: transparent;
-    background-color: rgb(186, 224, 186);
+    background-color: rgb(224, 236, 245);
     margin-left: 200px;
     height: auto;
     clear:both;
+    font-size: 16px;
 }
 #form1
 {
     border: 2px solid;
     border-radius: 5%;
     border-color: transparent;
-    background-color: rgb(186, 224, 186);
+    background-color: rgb(224, 236, 245);
     margin-left: 200px;
     margin-top:-80px;
     height: auto;
@@ -100,9 +102,9 @@ clear:both;
 #div1
 {
     padding: 50px;
-    background-color: rgb(186, 224, 186); 
+    background-color: rgb(224, 236, 245);
     width: 500px;
-    height: 440px;
+    height: 460px;
     float:right;
     border-radius: 5%;
     margin-top: -80px;
